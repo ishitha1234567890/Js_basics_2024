@@ -53,3 +53,19 @@ modifyObject(obj);
 console.log(obj.name); // Output: Bob (Original object is changed)
 
 
+//STACK VS PRIMITVE
+ let myyname='hellobello'
+ let nyname=myyname
+ nyname='hibi'
+ console.log(myyname);
+ console.log(nyname);
+
+
+ let mystyle={style:"style1"}
+ let nystyle=mystyle
+ nystyle.style="style2";
+ console.log(mystyle.style);
+ console.log(nystyle.style);
+
+
+
