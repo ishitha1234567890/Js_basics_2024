@@ -76,7 +76,7 @@ console.log(jsuser["lastname"]);
 //to lock value so that nobody can change
 //Object.freeze(jsuser)
 jsuser.lastname="RR"
-console.log(jsuser["lastname"]);//still R
+console.log(jsuser["lastname"]);//still R 
 
 //how to add func inside object
 //func in js is added as variable

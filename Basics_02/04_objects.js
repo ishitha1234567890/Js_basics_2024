@@ -42,8 +42,29 @@ console.log((Object.values(tinderUser)));//array of values of tinderUser object-
 console.log((Object.entries(tinderUser)));//key and value as array [ [ 'id', 12334 ], [ 'name', 'Koya' ], [ 'isfemale', true ] ]
 console.log(tinderUser.hasOwnProperty("isHappy"));//if value doesnt exist false
 
-//Methods
+//Destructing of objects
+const course={
+    coursenam:"js hindi",
+    price:444,
+    courseTeacher:"Neha"
+}
+console.log(course.coursenam)
+//syntax to avoid multiple course.keyname
 
+const {courseTeacher}=course;
+console.log(courseTeacher);
+//or
+const {courseTeacher:inst}=course;
+console.log(inst);
+
+//we can use this in react as well
+
+//API
+//json is same as json but without name
+
+//{"name":"Ishitha",
+//    "age":"23"
+//}
 
 
 
